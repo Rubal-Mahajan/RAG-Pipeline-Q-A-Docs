@@ -46,7 +46,7 @@ Following are the high level steps needed for the implementation for retrieval a
 4. Insert these text chunks in the prompt along with the question.
 5. Request an LLM (e.g. chatgpt) to produce an answer only based on the context
 
-**Instructions**
+**Instructions to run the chatbot**
 
 1. Clone the repo locally
    
@@ -59,4 +59,15 @@ Following are the high level steps needed for the implementation for retrieval a
 3. Add the relevant pdf in data folder and generate the embeddings first with following command
    
       python run embeddings.py
+
+4. Run the chat bot with following command
+
+   chainlit run model.py
+
+
+**Note :-** 
+
+1. For better response mention the number of words expected in the output in the query itself
+2. The chatbot is more of a search bot and will not have a memory of the last messages
+
 
