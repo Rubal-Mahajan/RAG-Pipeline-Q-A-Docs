@@ -50,4 +50,13 @@ Following are the high level steps needed for the implementation for retrieval a
 
 1. Clone the repo locally
    
-2.  
+   	git clone https://github.com/Rubal-Mahajan/RAG-Pipeline-Q-A-Docs.git
+
+2. Install all the requirements in any of the python venv
+   
+      pip install -r requirements.txt
+
+3. Add the relevant pdf in data folder and generate the embeddings first with following command
+   
+      python run embeddings.py
+
