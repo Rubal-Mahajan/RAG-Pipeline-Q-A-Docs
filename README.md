@@ -67,7 +67,25 @@ Following are the high level steps needed for the implementation for retrieval a
 
 **Note :-** 
 
-1. For better response mention the number of words expected in the output in the query itself
+1. For better response mention the number of words expected in the output within the query itself
 2. The chatbot is more of a search bot and will not have a memory of the last messages
+
+
+**Options to tune the results:**
+
+1. Tune the chunking method:
+2. Try another chunking method, like semantic chunking
+3. Size of the chunks
+4. Method: split on different separators, use semantic chunking…
+5. Change the embedding model
+6. Change the index used (here, FAISS)
+7. Tune the prompt
+8. Switch reranking on/off. Reranking can provide better results and can be explored further
+9. Compress the retrieved context to keep only the most relevant parts to answer the query.
+10. Make a more of a robust conversational bot
+11. Change the LLM model and see their output
+12. Design the evaluation pipeline to check on the Correctness, Faithfulness and Context Relevance 
+
+
 
 
