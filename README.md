@@ -46,4 +46,8 @@ Following are the high level steps needed for the implementation for retrieval a
 4. Insert these text chunks in the prompt along with the question.
 5. Request an LLM (e.g. chatgpt) to produce an answer only based on the context
 
+**Instructions**
 
+1. Clone the repo locally
+   
+2.  
